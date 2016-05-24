@@ -15,6 +15,8 @@
 		E23B3B771CEF44A6008D0975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23B3B751CEF44A6008D0975 /* LaunchScreen.storyboard */; };
 		E23B3B821CEF44A7008D0975 /* Use_OpenGLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E23B3B811CEF44A7008D0975 /* Use_OpenGLTests.m */; };
 		E23B3B8D1CEF44A7008D0975 /* Use_OpenGLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E23B3B8C1CEF44A7008D0975 /* Use_OpenGLUITests.m */; };
+		E23B3B9B1CEF451D008D0975 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23B3B9A1CEF451D008D0975 /* OpenGLES.framework */; };
+		E2807F711CEF465D00428331 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2807F701CEF465D00428331 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E23B3B881CEF44A7008D0975 /* Use_OpenGLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Use_OpenGLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23B3B8C1CEF44A7008D0975 /* Use_OpenGLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Use_OpenGLUITests.m; sourceTree = "<group>"; };
 		E23B3B8E1CEF44A7008D0975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23B3B9A1CEF451D008D0975 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E2807F701CEF465D00428331 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2807F711CEF465D00428331 /* QuartzCore.framework in Frameworks */,
+				E23B3B9B1CEF451D008D0975 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,8 @@
 		E23B3B5B1CEF44A6008D0975 = {
 			isa = PBXGroup;
 			children = (
+				E2807F701CEF465D00428331 /* QuartzCore.framework */,
+				E23B3B9A1CEF451D008D0975 /* OpenGLES.framework */,
 				E23B3B661CEF44A6008D0975 /* Use_OpenGL */,
 				E23B3B801CEF44A7008D0975 /* Use_OpenGLTests */,
 				E23B3B8B1CEF44A7008D0975 /* Use_OpenGLUITests */,
@@ -496,6 +504,7 @@
 				E23B3B931CEF44A7008D0975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E23B3B941CEF44A7008D0975 /* Build configuration list for PBXNativeTarget "Use_OpenGLTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				E23B3B961CEF44A7008D0975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E23B3B971CEF44A7008D0975 /* Build configuration list for PBXNativeTarget "Use_OpenGLUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				E23B3B991CEF44A7008D0975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
